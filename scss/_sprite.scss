@@ -1,0 +1,31 @@
+.icon-fb:hover > .icon-circle{
+    fill: #fff;
+    opacity: 1;
+    stroke: #3B5998;
+    transition: all 0.2s;
+}
+
+.icon-fb:hover > .icon-svg-in{
+    fill: #3B5998;
+}
+
+.icon-twitter:hover > .icon-circle{
+    fill: #fff;
+    opacity: 1;
+    stroke: #00ACEE;
+    transition: all 0.2s;
+}
+
+.icon-twitter:hover > .icon-svg-in{
+    fill: #00ACEE;
+}
+
+.icon-instagram:hover > .icon-circle{
+    fill: #fff;
+    opacity: 1;
+    stroke: #C13584;
+    transition: all 0.2s;
+}
+.icon-instagram:hover > .icon-svg-in{
+    fill: #C13584;
+}

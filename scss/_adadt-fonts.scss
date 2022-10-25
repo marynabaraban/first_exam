@@ -1,0 +1,40 @@
+// 1. Базовий розмір шрифта  - 48px    18   78
+// 2. Ширина макету -          1440px   
+// 3. Мінімальний розмір шрифта - 34px      40
+// 4. Додаткове число  - 48 - 34 = 14       38
+
+
+    .banner__title {
+        // font-size: calc(40px + 40 * (100vw / 1440));
+        // @media screen and (max-width: 768px) {
+        //     font-size: calc(40px + (40 + 40 * 0.7) * ((100vw - 320px) / 1170));
+        // }
+
+        font-size: calc(40px + 38 * (100vw / 1440));
+        @media screen and (max-width: 768px) {
+            font-size: calc(40px + (38 + 38 * 0.5) * ((100vw - 320px) / 1170));
+        }
+    }
+
+    .title_2{
+        font-size: calc(28px + 12 * (100vw / 1440));
+        @media screen and (max-width: 768px) {
+            font-size: calc(28px + (12 + 12 * 0.7) * ((100vw - 320px) / 1170));
+        }
+    }
+
+    .about__text{
+        font-size: calc(14px + 4 * (100vw / 1440));
+        @media screen and (max-width: 768px) {
+            font-size: calc(14px + (4 + 4 * 0.7) * ((100vw - 320px) / 1170));
+        }
+    }
+
+// .section {
+//     &__title {
+//         font-size: calc(34px + 14 * (100vw / 1440));
+//         @media screen and (max-width: 768px) {
+//             font-size: calc(34px + (14 + 14 * 0.7) * ((100vw - 320px) / 1440));
+//         }
+//     }
+// }
